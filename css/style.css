@@ -288,17 +288,54 @@ a.active i{
     border-radius: 50px;
     display: inline-block;
 }
-.left-address{
+.left-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5%;
-    background-color: white;
+    width: 100%;    
+}
+.left-phone i{
+    flex: 15%;
+    font-size: 28px;
+}
+.left-phone .left-phone-context{
+    flex: 85%;
+    letter-spacing: 2px;
+}
+.left-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;    
+}
+.left-contact i{
+    flex: 15%;
+    font-size: 28px;
+}
+.left-contact .left-contact-context{
+    flex: 85%;
+}
+.left-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;    
+}
+.left-email i{
+    flex: 15%;
+    font-size: 28px;
+}
+.left-email .left-email-context{
+    flex: 85%;
 }
 .label-active{
     color: #80BD9E;
 }
-.left-address label{
-    display: block;
-    margin-bottom: 30px;
-}
+
+
 /* end section css resume   */
 
 .ex-heading{
@@ -416,6 +453,10 @@ button.setting-icon {
     transition: all ease 1s;
 
     z-index: 99;
+}
+.education{
+    color: white;
+    font-size: 20px;
 }
 /* ----------setting button--------- */
 /* ---------color scheeme----------- */
@@ -581,6 +622,7 @@ button#green-color {
 #portfolio{
     color: black;
     padding-bottom: 10px;
+    padding: 5%;
 }
 #portfolio h3{
     color: #80BD9E;
