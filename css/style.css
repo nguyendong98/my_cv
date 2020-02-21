@@ -331,6 +331,20 @@ a.active i{
 .left-email .left-email-context{
     flex: 85%;
 }
+.left-git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;    
+}
+.left-git i{
+    flex: 15%;
+    font-size: 28px;
+}
+.left-git .left-git-context{
+    flex: 85%;
+}
 .label-active{
     color: #80BD9E;
 }
